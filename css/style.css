@@ -1,0 +1,119 @@
+.{
+	margin: 0;
+	padding: 0   ;
+}
+.heder{
+	width: 100%;
+	background-color: white;
+}
+a{
+	text-decoration: none;
+}
+.continer{
+	width: 1140px;
+	margin: auto;
+
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+o img {
+	width: 100px;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	line-height: 68px;
+	margin-right: 16px;
+	margin-right: 16px;
+}
+
+.menu-btn{
+	margin-top: 16px;
+}
+
+.menu-btn button{
+	background-color: rgb(30, 38, 109);
+	color: white;
+    margin: 16px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+    margin-left: 8px
+}
+.menu-btn button:hover{
+	background-color: tomato;
+
+}
+
+.footer{
+	width: 100%;
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: ;
+}
+.footer-row{
+	display: flex;
+}
+.footer-1,.footer-2,.footer-3,.footer-4{
+	flex-basis: 25%;
+	margin-right: 16px;
+}
+.footer-hading{
+	font-size: 16px;
+	color: #1e266d;
+    margin-bottom: 16px;
+}
+.pra-diccripson{
+	font-size: 16px;
+	color: #91a3bb;
+	line-height: 1.9;
+}
+
+.Link li {
+	list-style: none;
+	line-height: 1.9;
+}
+
+.Link li a{
+	color: #91a3bb;
+	transition: 0.5s;
+}
+
+.Link li a:hover{
+	color:#1e266d;
+	margin-left: 8px;
+	transition: 0.5s;
+}
+.addres{
+	width: 100%;
+	background-color: white;
+	padding: 100px;
+	
+	
+}
+.addres-row{
+	display: flex;
+	background-color: rgb(46, 54, 125);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 60px;
+	padding-right: 60px;
+	border-radius: 8px;
+
+
+}
+.address-left,.address-right{
+	flex-basis: 50%;
+}
+.addres-row h3{
+	color:white ;
+	font-size: 24px;
+	margin-bottom: 16px;
+
+}
